@@ -24,3 +24,14 @@ function score( dice ) {
     
     return score
   }
+
+  // https://www.codewars.com/kata/52449b062fb80683ec000024/train/javascript
+
+  function generateHashtag (str) {
+    str = str.trim()
+    if(str == "" || str == null || str == undefined) return false
+    
+    let final = "#" + str.split(" ").filter(char => char.match(/[a-zA-Z]/)).map(char => char[0].toUpperCase() + char.slice(1)).join("")
+    
+    return final.length > 140 ? false : final
+  }
