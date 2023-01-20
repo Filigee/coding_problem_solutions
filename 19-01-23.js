@@ -35,3 +35,4 @@ function score( dice ) {
     
     return final.length > 140 ? false : final
   }
+
