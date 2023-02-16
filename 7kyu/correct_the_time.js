@@ -48,4 +48,5 @@ function timeCorrect(timestring) {
   }
   
   return checkTimes(split_times)
+  
 }
