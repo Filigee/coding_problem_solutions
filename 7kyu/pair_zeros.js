@@ -26,4 +26,5 @@ function pairZeros(array) {
     }
     
     return array
+    
   }
