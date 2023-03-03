@@ -11,4 +11,5 @@ function trim(str, size) {
       return str
     
     return str.slice(0, size).length > 3 ? str.slice(0, size - 3) + "..." : str.slice(0, size) + "..."
+    
   }
