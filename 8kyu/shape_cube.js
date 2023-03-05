@@ -8,4 +8,4 @@ var cubeChecker = function(volume, side){
       return false
     
     return side * side * side == volume ? true : false
-  };
+  }
