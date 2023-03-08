@@ -19,4 +19,5 @@ function digPow(base, start_power){
     
     return whole_number_check ? k : -1
     
+    
   }
