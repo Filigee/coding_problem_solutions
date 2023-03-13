@@ -43,3 +43,17 @@ function lightBulbs(array, n) {
     if(current_bulb == 0) return 1
     else return 0
   }
+
+
+  // Alternative Solution
+
+  // function lightBulbs(lights, n) {
+
+  //   let res = lights;
+  
+  //   while (n--) 
+  //     res = res.map((l, i) => res[(i || res.length) - 1] ? 1 - l : l);
+  
+  //   return res;
+  
+  // }
