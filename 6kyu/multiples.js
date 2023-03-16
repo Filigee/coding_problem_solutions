@@ -24,4 +24,5 @@ function solution(number){
       
     // return sum
     return sum
+    
   }
