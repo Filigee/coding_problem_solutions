@@ -7,6 +7,7 @@ function makeMove(sticks) {
   return amountOfSticks(sticks)
 }
 
+
 function amountOfSticks(sticks){
   if((sticks - 3) % 4 == 0) return 3
   else if((sticks - 2) % 4 == 0) return 2
