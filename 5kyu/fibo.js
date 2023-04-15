@@ -34,5 +34,4 @@ function fibDigits(n) {
       }
       return b[0] - a[0]
     })
-    
   }
