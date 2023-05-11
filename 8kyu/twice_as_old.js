@@ -4,4 +4,5 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     const SON_TIMES_2 = sonYearsOld * 2
     
     return SON_TIMES_2 > dadYearsOld ? SON_TIMES_2 - dadYearsOld : dadYearsOld - SON_TIMES_2
+    
   }
