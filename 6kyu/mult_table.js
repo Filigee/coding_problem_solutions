@@ -12,5 +12,6 @@ multiplicationTable = function(size) {
     }
     
     return main_array
+
   }
   
